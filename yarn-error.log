@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add -D prisma@3.3.0
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add prismaclient
 
 PATH: 
-  C:\Users\usuario\AppData\Local\Temp\yarn--1634823858921-0.7817940640955074;C:\Users\usuario\Desktop\NLW\node_modules\.bin;C:\Users\usuario\AppData\Local\Yarn\Data\link\node_modules\.bin;C:\Program Files\libexec\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Users\usuario\AppData\Local\Microsoft\WindowsApps;C:\Users\usuario\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\usuario\AppData\Roaming\npm;C:\Users\usuario\AppData\Local\gitkraken\bin;C:\Program Files (x86)\Nmap;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\bin;;C:\Users\usuario\AppData\Local\Yarn\bin
+  C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Users\usuario\AppData\Local\Microsoft\WindowsApps;C:\Users\usuario\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\usuario\AppData\Roaming\npm;C:\Users\usuario\AppData\Local\gitkraken\bin;C:\Program Files (x86)\Nmap;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\bin;;C:\Users\usuario\AppData\Local\Yarn\bin
 
 Yarn version: 
   1.22.15
@@ -14,7 +14,17 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'C:\Users\usuario\Desktop\NLW\node_modules\prisma\query_engine-windows.dll.node'
+  Error: https://registry.yarnpkg.com/prismaclient: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66140:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140885:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141857:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141779:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1317:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
 
 npm manifest: 
   {
